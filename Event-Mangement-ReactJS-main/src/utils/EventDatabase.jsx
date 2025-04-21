@@ -1,49 +1,47 @@
 export const eventList = [
-    {
-      id: 1,
-      heading: "Epic Comic Con",
-      date: { year: 2023, month: "July" },
-      location: "Mumbai, India",
-      description:
-        "Experience the most anticipated gathering of comic enthusiasts! Epic Comic Con invites you to immerse yourself in a realm where heroes and villains collide. Unveil exclusive collectibles, join panels with renowned artists, and witness legendary cosplayers bring your favorite characters to life. Whether you're a seasoned comic collector or just starting your journey, this event guarantees an epic adventure!",
-      img: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29taWNzfGVufDB8fDB8fHww",
-    },
-    {
-      id: 2,
-      heading: "Fantasy Gaming Expo",
-      date: { year: 2024, month: "May" },
-      location: "Delhi, India",
-      description:
-        "Embark on a journey through fantastical realms at the Fantasy Gaming Expo! Delve into an immersive gaming experience that transcends reality. From tabletop adventures to cutting-edge VR simulations, this expo celebrates the essence of fantasy in gaming. Unleash your strategic prowess, forge alliances, and discover a world where every move shapes the destiny of kingdoms!",
-      img: "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      id: 3,
-      heading: "Cosplay Carnival",
-      date: { year: 2023, month: "September" },
-      location: "Bangalore, India",
-      description:
-        "Welcome to the Cosplay Carnival, where creativity knows no bounds! Embrace the art of transformation as cosplayers from across galaxies gather to showcase their craftsmanship. Unleash your alter ego, don your meticulously crafted costumes, and strut into a world where fantasy meets reality. With contests, workshops, and a vibrant community, this carnival invites you to step into a realm of endless possibilities!",
-      img: "https://images.unsplash.com/photo-1502136969935-8d8eef54d77b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      id: 4,
-      heading: "Sci-Fi Symposium",
-      date: { year: 2024, month: "March" },
-      location: "Hyderabad, India",
-      description:
-        "Dive into the future at the Sci-Fi Symposium, a convergence of cutting-edge ideas and futuristic visions! Explore the technological marvels reshaping our world, engage with visionary speakers, and ponder the possibilities of tomorrow. From AI advancements to interstellar exploration, this symposium ignites curiosity and fuels the imagination. Join us on this journey to unravel the mysteries of science fiction!",
-      img: "https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      id: 5,
-      heading: "Epic Comic Con",
-      date: { year: 2023, month: "January" },
-      location: "Mumbai, India",
-      description:
-        "Experience the most anticipated gathering of comic enthusiasts! Epic Comic Con invites you to immerse yourself in a realm where heroes and villains collide. Unveil exclusive collectibles, join panels with renowned artists, and witness legendary cosplayers bring your favorite characters to life. Whether you're a seasoned comic collector or just starting your journey, this event guarantees an epic adventure!",
-      img: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29taWNzfGVufDB8fDB8fHww",
-    },
-    
-  ];
-  
+  {
+    id: 1,
+    heading: "AI Future Fest",
+    date: { year: 2025, month: "June" },
+    location: "Bengaluru, India",
+    description:
+      "Dive into the world of Artificial Intelligence at AI Future Fest 2025! From next-gen machine learning models to real-world AI deployments, explore how intelligence is reshaping industries. Attend expert-led sessions, hands-on workshops, and AI startup showcases to experience the future of intelligent automation and innovation.",
+    img: "https://images.unsplash.com/photo-1581090700227-1e8e601ea7b1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    id: 2,
+    heading: "Smart Mobility Expo",
+    date: { year: 2025, month: "August" },
+    location: "Pune, India",
+    description:
+      "Get ready to ride into the future of transportation at the Smart Mobility Expo! Witness cutting-edge advancements in electric vehicles, autonomous driving, and smart traffic systems. Network with automotive pioneers and experience demos of how cities are evolving with intelligent mobility solutions.",
+    img: "https://images.unsplash.com/photo-1549921296-3a4d3e4d3e96?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    id: 3,
+    heading: "Quantum India Summit",
+    date: { year: 2025, month: "September" },
+    location: "Hyderabad, India",
+    description:
+      "Step into the world of quantum computing and next-gen cryptography at the Quantum India Summit. Engage with global researchers and developers exploring quantum supremacy, entanglement algorithms, and their applications in security, finance, and health tech.",
+    img: "https://images.unsplash.com/photo-1622482183132-1e71ecf8ba20?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    id: 4,
+    heading: "Future Fintech Forum",
+    date: { year: 2025, month: "October" },
+    location: "Mumbai, India",
+    description:
+      "Explore the future of finance and technology at the Future Fintech Forum. From blockchain breakthroughs and decentralized banking to robo-advisors and financial AI, discover the innovations transforming the fintech landscape in India and beyond.",
+    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+  {
+    id: 5,
+    heading: "NextGen Robotics Conclave",
+    date: { year: 2025, month: "November" },
+    location: "Chennai, India",
+    description:
+      "Join India's top roboticists and automation experts at the NextGen Robotics Conclave. Experience live robot battles, industrial automation demos, humanoid showcases, and deep tech sessions on how robotics is transforming sectors like manufacturing, agriculture, and healthcare.",
+    img: "https://images.unsplash.com/photo-1581091012184-7e0cdfbb6792?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
+  },
+];
