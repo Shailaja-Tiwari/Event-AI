@@ -10,6 +10,9 @@ const Navigation = ()=>{
             <li>
               <Link to="/find-events">Find Events</Link>
             </li>
+           <li>
+             <Link to="/blog">Blog</Link>
+            </li>
         </ul>
     </nav>
   )
