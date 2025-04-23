@@ -1,0 +1,84 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f4f4f4, #e2e2ff);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #111;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+#blog-detail {
+  padding: 3rem;
+  max-width: 5000px;
+  margin: 4rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  line-height: 1.2;
+  font-size: 1.15rem;
+  color: #2c2c2c;
+  text-align: left;
+}
+
+#blog-detail h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #4f46e5;
+  text-align: center;
+}
+
+#blog-detail p {
+  margin-bottom: 1.6rem;
+}
+/*******************************************************************************************/
+#blog-detail {
+  width: 600px;
+  height: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #2c2c2c;
+  text-align: left;
+  overflow-y: auto; /* Enables scrolling if content overflows */
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #3730a3;
+}
